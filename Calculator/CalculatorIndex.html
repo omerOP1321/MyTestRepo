@@ -6,47 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <script src="../Calculator/index.js"></script>
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="/CalculatorIndex.css">
 </head>
-
-<div class="calculator">
-    <h2>Calculator</h2>
-    <input type="text" class="calculator-screen" value="0" disabled />
-
-    <div class="calculator-keys">
-
-        <button type="button" class="operator" value="+">+</button>
-        <button type="button" class="operator" value="-">-</button>
-        <button type="button" class="operator" value="*">&times;</button>
-        <button type="button" class="operator" value="/">&divide;</button>
-
-        <button type="button" value="7">7</button>
-        <button type="button" value="8">8</button>
-        <button type="button" value="9">9</button>
-
-
-        <button type="button" value="4">4</button>
-        <button type="button" value="5">5</button>
-        <button type="button" value="6">6</button>
-
-
-        <button type="button" value="1">1</button>
-        <button type="button" value="2">2</button>
-        <button type="button" value="3">3</button>
-
-
-        <button type="button" value="0">0</button>
-        <button type="button" class="decimal" value=".">.</button>
-        <button type="button" class="all-clear" value="all-clear">C</button>
-
-        <button type="button" class="equal-sign" value="=">=</button>
-
-    </div>
-</div>
 
 <body>
 
+    <div class="calculator">
+        <h2>Calculator</h2>
+        <input type="text" class="calculator-screen" value="" disabled />
+
+        <div class="calculator-keys">
+
+            <button type="button" class="operator" value="+">+</button>
+            <button type="button" class="operator" value="-">-</button>
+            <button type="button" class="operator" value="*">&times;</button>
+            <button type="button" class="operator" value="/">&divide;</button>
+
+            <button type="button" class="numbers" value="1">1</button>
+            <button type="button" class="numbers" value="2">2</button>
+            <button type="button" class="numbers" value="3">3</button>
+
+            <button type="button" class="numbers" value="4">4</button>
+            <button type="button" class="numbers" value="5">5</button>
+            <button type="button" class="numbers" value="6">6</button>
+
+            <button type="button" class="numbers" value="7">7</button>
+            <button type="button" class="numbers" value="8">8</button>
+            <button type="button" class="numbers" value="9">9</button>
+
+            <button type="button" class="numbers" value="0">0</button>
+            <button type="button" class="decimal" value=".">.</button>
+            <button type="button" class="all-clear" value="all-clear">C</button>
+
+            <button type="button" class="equal-sign" value="=">=</button>
+
+        </div>
+    </div>
+
+    <script src="/CalculatorIndex.js"></script>
 </body>
 
 </html>
